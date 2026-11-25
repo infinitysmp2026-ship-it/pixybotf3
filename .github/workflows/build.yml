@@ -21,7 +21,6 @@ jobs:
 
       - name: Build Mod
   run: gradle build
-        run: gradle -p PP-Bot-Stage5-final build
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
