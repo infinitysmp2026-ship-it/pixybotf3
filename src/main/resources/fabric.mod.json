@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pixybot",
+  "version": "${version}",
+  "name": "PIXY BOT PvP MOD",
+  "description": "Player-like PvP bots: exact-pose spawning, names, skins, per-bot goat-horn Hunter Mode, looting, smart PvP, navigation and varied skins.",
+  "authors": ["PIXY"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.pixy.bot.PixyBotMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
